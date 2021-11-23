@@ -113,7 +113,7 @@ body {
 .container-main {
   height: 900px;
   width: 100%;
-  background-image: url("/images/Header/Hero-header.avif");
+  background-image: url("images/Header/Hero-header.avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,7 +162,7 @@ body {
 }
 /* Forms in Booking */
 #arrival-date {
-  background-image: url("/images/Header/Arrival-departure-icon.png");
+  background-image: url("images/Header/Arrival-departure-icon.png");
   background-repeat: no-repeat;
   background-size: 17px 18px;
   background-position: right center;
@@ -176,7 +176,7 @@ body {
 }
 
 #departure-date {
-  background-image: url("/images/Header/Arrival-departure-icon.png");
+  background-image: url("images/Header/Arrival-departure-icon.png");
   background-repeat: no-repeat;
   background-size: 17px 18px;
   background-position: right center;
@@ -190,7 +190,7 @@ body {
 }
 
 #quantity {
-  background-image: url("/images/Header/DropDown-arrow.png");
+  background-image: url("images/Header/DropDown-arrow.png");
   background-repeat: no-repeat;
   background-size: 15px 8px;
   background-position: right center;
@@ -652,7 +652,7 @@ body {
 }
 
 .hotel-map {
-  background-image: url("/images/Body/Map-placeholder.png");
+  background-image: url("images/Body/Map-placeholder.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -693,7 +693,7 @@ body {
 #contact {
   height: 791px;
   width: auto;
-  background-image: url("/images/Body/Parallex-contanct-image.png");
+  background-image: url("images/Body/Parallex-contanct-image.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
