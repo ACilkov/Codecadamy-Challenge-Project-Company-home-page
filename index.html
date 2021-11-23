@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- FONTS -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,400&display=swap");
+    </style>
+    <title>Hotel Park Negotino</title>
+  </head>
+
+  <body>
+    <!-- NAVIGATION -->
+    <div id="main-nav">
+      <nav>
+        <img
+          class="logo"
+          src="/images/Header/HPN-header-logo.png"
+          alt="Hotel Park Logo"
+        />
+        <div class="flex-nav">
+          <div class="nav">
+            <ul class="social">
+              <li><a>Contact:</a> 043-370-960</li>
+              <li><a>Mail:</a> hotelpark@yahoo.com</li>
+              <li><a>Social media:</a></li>
+              <img src="/images/Header/Facebook-header-icon.png" alt="" />
+              <img src="/images/Header/Instagram-header-icon.png" alt="" />
+              <img src="/images/Header/Twitter-header-icon.png" alt="" />
+            </ul>
+          </div>
+          <hr class="hr-line" />
+          <div class="site-nav">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="#rooms">ROOMS</a></li>
+              <li><a href="#amenities">AMENITIES</a></li>
+              <li><a href="#location">LOCATION</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main class="container-main">
+      <div class="banner">
+        <h1>Welcome to Hotel Park Negotino</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          condimentum faucibus felis, et tempor orci luctus a. Integer elementum
+          gravida libero venenatis porttitor.
+        </p>
+      </div>
+      <div id="booking">
+        <div class="container-booking">
+          <form>
+            <label for="arrival-date"></label>
+            <input
+              type="text"
+              id="arrival-date"
+              name="arrival-date"
+              placeholder="Arrival Date"
+            />
+          </form>
+          <form>
+            <label for="departure-date"></label>
+            <input
+              type="text"
+              id="departure-date"
+              name="deprature-date"
+              placeholder="Departure Date"
+            />
+          </form>
+          <form>
+            <label for="quantity" class="adult"></label>
+            <input
+              type="select"
+              id="quantity"
+              name="quantity"
+              min="1"
+              max="10"
+              placeholder="Adult"
+            />
+          </form>
+          <form>
+            <label for="quantity" class="children"></label>
+            <input
+              type="select"
+              id="quantity"
+              name="quantity"
+              min="1"
+              max="10"
+              placeholder="Children"
+            />
+          </form>
+          <form id="check-ava">
+            <input class="check-ava" type="submit" value="Check Availability" />
+          </form>
+        </div>
+      </div>
+    </main>
+    <section id="about-us">
+      <h1>About Us</h1>
+      <hr class="hr-about" />
+      <div class="container-about">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          condimentum faucibus felis, et tempor orci luctus a. Integer elementum
+          gravida libero venenatis porttitor. Sed feugiat suscipit lectus, quis
+          pulvinar neque dignissim vitae. Morbi vestibulum, leo non cursus
+          mollis, risus arcu consequat diam, eu rutrum arcu turpis eget diam.
+          Fusce quis eros quis odio ultricies scelerisque nec ut augue.
+          Vestibulum vitae dolor id eros lacinia aliquam vitae a lacus. Integer
+          et fermentum elit, vitae fermentum turpis. Aliquam purus nulla,
+          maximus id porta vel, cursus in arcu. Fusce massa nibh, condimentum
+          quis ultricies in, hendrerit nec diam. Integer blandit in elit ac
+          egestas. Duis molestie ultricies nulla, tincidunt hendrerit libero
+          bibendum quis. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Nulla condimentum faucibus felis, et tempor orci luctus a.
+          Integer elementum gravida libero venenatis.
+        </p>
+        <img src="/images/Body/About-us-image.png" alt="Entrance to hotel" />
+      </div>
+    </section>
+
+    <!-- ROOMS -->
+    <section id="rooms">
+      <hr class="hr-rooms" />
+      <h1>Our Rooms</h1>
+      <p class="txt-center">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+        condimentum faucibus felis, et tempor orci luctus a. Integer elementum
+        gravida libero venenatis
+      </p>
+    </section>
+    <div class="room-select">
+      <div class="single">
+        <h2 class="center">Single Room</h2>
+        <img src="/images/Body/Single-room-image.png" alt="" />
+        <button class="btn-details">Details</button>
+      </div>
+      <div class="double">
+        <h2 class="center">Double Room</h2>
+        <img src="/images/Body/Double-room-image.png" alt="" />
+        <button class="btn-details">Details</button>
+      </div>
+      <div class="delux">
+        <h2 class="center">Delux Room</h2>
+        <img src="/images/Body/Delux-room-image.png" alt="" />
+        <button class="btn-details">Details</button>
+      </div>
+      <div class="apartment">
+        <h2 class="center">Apartment Room</h2>
+        <img src="/images/Body/Appartment-room-image.png" alt="" />
+        <button class="btn-details">Details</button>
+      </div>
+    </div>
+
+    <!-- AMENITIES -->
+    <section id="amenities">
+      <hr class="hr-amenities" />
+      <h1>Amenities</h1>
+      <p class="txt-center">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+        condimentum faucibus felis, et tempor orci luctus a. Integer elementum
+        gravida libero venenatis
+      </p>
+      <div class="container-amnt">
+        <div class="left-main">
+          <div class="wifi">
+            <img src="/images/Body/Wifi-icon.png" alt="" />
+            <div class="content-amnt">
+              <h3>Free Wifi</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Reiciendis provident eos ut facere dolorem vitae aperiam,
+                temporibus dolores vero ipsa?
+              </p>
+            </div>
+          </div>
+          <div class="pet">
+            <img src="/images/Body/Pet-icon.png" alt="" />
+            <div class="content-amnt">
+              <h3>Pet Friendly</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                fuga enim cum voluptate neque. Ullam, exercitationem adipisci.
+                Fugit, ipsum dolorum.
+              </p>
+            </div>
+          </div>
+          <div class="wine">
+            <img src="/images/Body/Wine-icon.png" alt="" />
+            <div class="content-amnt">
+              <h3>Antigona Wine Tours</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                fuga enim cum voluptate neque. Ullam, exercitationem adipisci.
+                Fugit, ipsum dolorum.
+              </p>
+            </div>
+          </div>
+          <div class="terrace">
+            <img src="/images/Body/Terrace-icon.png" alt="" />
+            <div class="content-amnt">
+              <h3>Spacious Terrace</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                fuga enim cum voluptate neque. Ullam, exercitationem adipisci.
+                Fugit, ipsum dolorum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="right-main">
+          <div class="restaurant">
+            <img src="/images/Body/Resturant-bar-icon.png" alt="" />
+            <div class="content-amnt">
+              <h3>Restaurant & Bar</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Reiciendis provident eos ut facere dolorem vitae aperiam,
+                temporibus dolores vero ipsa?
+              </p>
+            </div>
+          </div>
+          <div class="parking">
+            <img src="/images/Body/Parking-icon.png" alt="" />
+            <div class="content-amnt">
+              <h3>Free Private Parking</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                fuga enim cum voluptate neque. Ullam, exercitationem adipisci.
+                Fugit, ipsum dolorum.
+              </p>
+            </div>
+          </div>
+          <div class="wedding">
+            <img src="/images/Body/Wedding-icon.png" alt="" />
+            <div class="content-amnt">
+              <h3>Wedding Hall</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                fuga enim cum voluptate neque. Ullam, exercitationem adipisci.
+                Fugit, ipsum dolorum.
+              </p>
+            </div>
+          </div>
+          <div class="language">
+            <img src="/images/Body/Language-icon.png" alt="" />
+            <div class="content-amnt">
+              <h3>Multiple Languages</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                fuga enim cum voluptate neque. Ullam, exercitationem adipisci.
+                Fugit, ipsum dolorum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="picture-amnt">
+          <img src="/images/Body/Winery-image.png" alt="Wine fields" />
+        </div>
+      </div>
+    </section>
+
+    <!-- STAFF -->
+    <section id="staff">
+      <hr class="hr-staff" />
+      <h1>Meet our staff</h1>
+      <p class="txt-center">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+        condimentum faucibus felis, et tempor orci luctus a. Integer elementum
+        gravida libero venenatis
+      </p>
+    </section>
+    <div class="our-staff">
+      <div class="ben-parker">
+        <h2 class="center-staff">Ben Parker</h2>
+        <h3>Manager</h3>
+        <img src="/images/Body/ben-parker.jpg" alt="" />
+      </div>
+      <div class="jane">
+        <h2 class="center-staff">Jane Johnson</h2>
+        <h3>Human Resources</h3>
+        <img src="/images/Body/jane.jpg" alt="" />
+      </div>
+      <div class="annie">
+        <h2 class="center-staff">Annie Thomason</h2>
+        <h3>Staff-Relations</h3>
+        <img src="/images/Body/Annie.jpg" alt="" />
+      </div>
+      <div class="kali">
+        <h2 class="center-staff">Kali Karvi</h2>
+        <h3>Owner</h3>
+        <img src="/images/Body/Kali.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- LOCATION -->
+    <section id="location">
+      <hr class="hr-location" />
+      <h1>Location & how to get to us</h1>
+      <p class="txt-center">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+        condimentum faucibus felis, et tempor orci luctus a. Integer elementum
+        gravida libero venenatis
+      </p>
+      <div class="hotel-map">
+        <h2>Click for directions to the Hotel</h2>
+        <p>Via Highway E-75 (Alexander of Macedon)</p>
+        <button type="button" class="location-btn">Coming from Serbia</button>
+        <button type="button" class="location-btn">Coming from Greece</button>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h1>Get in touch with us</h1>
+      <div class="container-contact">
+        <div class="form">
+          <div class="user-info">
+            <form action="" method="get" class="contact-form">
+              <div class="name">
+                <label for="name"></label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  required
+                  placeholder="Full Name"
+                />
+              </div>
+            </form>
+            <form action="" method="get" class="email">
+              <div class="email">
+                <label for="email"></label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  required
+                  placeholder="E-mail Address"
+                />
+              </div>
+            </form>
+            <form action="" method="get" class="phone">
+              <label for="phone"></label>
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                required
+                placeholder="Phone Number"
+              />
+            </form>
+          </div>
+          <div class="box-msg">
+            <form action="" class="message">
+              <textarea name="message" id="message" cols="30" rows="10">
+Message...</textarea
+              >
+            </form>
+          </div>
+          <div class="box-send">
+            <form action="" class="checkbox">
+              <input
+                type="checkbox"
+                name="checkbox"
+                id="checkbox"
+                value="checkbox"
+              />
+              <label for="checkbox"
+                >I would like to be up-to date on the latest offers and
+                news!</label
+              >
+            </form>
+            <form action="" class="send">
+              <input type="submit" value="Send" class="send-btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="main-footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="/images/Header/HPN-header-logo.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+            tempus augue a tortor aliquet, sed placerat sem malesuada.
+            Vestibulum gravida erat id tincidunt viverra. Sed faucibus diam quis
+          </p>
+          <div class="footer-socials">
+            <img src="/images/Footer/Facebook-icon.png" alt="" />
+            <img src="/images/Footer/Instagram-icon.png" alt="" />
+            <img src="/images/Footer/Twitter-icon.png" alt="" />
+            <img src="/images/Footer/Booking-icon.png" alt="" />
+            <img src="/images/Footer/Tripadvisor-icon.png" alt="" />
+          </div>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact Us</h3>
+          <div class="footer-location">
+            <img src="/images/Footer/Location-pin-icon.png" alt="" />
+            <p>Hotel Park, Partizanska br.47, 1440 Negotino, Macedonia</p>
+          </div>
+          <div class="footer-mail">
+            <img src="/images/Footer/Mail-icon.png" alt="" />
+            <p>hotelpark@yahoo.com</p>
+          </div>
+          <div class="footer-phone">
+            <img src="/images/Footer/Phone-icon.png" alt="" />
+            <p>+ 043 608 708</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li>Home</li>
+            <li>Rooms</li>
+            <li>Location</li>
+            <li>Contact</li>
+            <li>Language</li>
+          </ul>
+        </div>
+        <div class="footer-collections">
+          <h3>Collections</h3>
+          <div class="collections-images">
+            <img src="/images/Footer/C1.png" alt="" />
+            <img src="/images/Footer/C2.png" alt="" />
+            <img src="/images/Footer/C3.png" alt="" />
+            <img src="/images/Footer/C4.png" alt="" />
+            <img src="/images/Footer/C5.png" alt="" />
+            <img src="/images/Footer/C6.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div id="copyright-footer">
+        <div class="container-copyright">
+          <p>Hotel Park Negotino All rights reserved 2017 &copy;</p>
+          <p>Proudly Developed by: Andrej Cilkov</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
